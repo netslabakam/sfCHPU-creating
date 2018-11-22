@@ -1,0 +1,59 @@
+html, body, header, #intro{
+    height: 100%;
+}
+#intro{
+    background: url("../images/header.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.top-nav-collapse{
+    background-color: #5d4037
+}
+
+.read-more{
+    display:none;
+}
+
+@media (max-width:760px){
+    .navbar:not(.top-nav-collapse){
+        background: #5d4037
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*search-box hover effect*/
+.search-box1{
+    border-radius: 20px;
+}
+.search-box1:hover > .search-txt{
+    width: 240px;
+}
+.search-btn1{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    transition: 0.4s;
+}
+.search-txt{
+    border-radius: 10px;
+    border: none;
+    background: #f7e8ff;
+    outline: none;
+    float: left;
+    color: #000000;
+    transition: 0.4s;
+    width: 0px;
+}
+/*search-box hover effect*/

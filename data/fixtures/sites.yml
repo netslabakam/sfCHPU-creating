@@ -1,0 +1,4 @@
+ChpuMain:
+  symfony:
+    url: http://www.sensio-labs.com/
+    short: fabien.potencier@example.com

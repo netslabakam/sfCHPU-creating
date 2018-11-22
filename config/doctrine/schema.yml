@@ -1,0 +1,5 @@
+ChpuMain:
+  actAs: { Timestampable: ~ }
+  columns:
+    url: { type: string(255), notnull: true, unique: true }
+    short: { type: string(255), notnull: true, unique: true }
