@@ -9,7 +9,7 @@ chpu:
     model:  ChpuMain
 
 reurl:
-  url:   /:short_slug/:id
+  url:   :url
   class: sfDoctrineRoute
   options:
     model: ChpuMain
@@ -22,7 +22,7 @@ reurl:
     sf_method: [GET]
 
 chpu_show:
-  url:   /chpu/:short_slug/:id
+  url:   chpu/:short_slug/:id
   class: sfDoctrineRoute
   options:
     model: ChpuMain
@@ -37,7 +37,7 @@ chpu_show:
 
 homepage:
   url:   /
-  param: { module: chpu, action: index }
+  param: { module: chpu, action: new }
 
 # generic rules
 # please, remove them by adding more specific rules

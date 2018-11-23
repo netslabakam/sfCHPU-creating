@@ -23,10 +23,15 @@ class chpuActions extends sfActions
   {
       $this->chpu = $this->getRoute()->getObject();
   }
-  public function executeReurl(sfWebRequest $request)
-  {
-      $this->chpu = $this->getRoute()->getObject();
-  }
+//  public function executeReurl()
+//  {
+//      $this->chpu = $this->getRoute()->getObject();
+////      $url = Doctrine_Query::create()
+////        ->select("url")
+////        ->from("ChpuMain");
+//
+//      $this->redirect(url_for($this->chpu->getUrl()));
+//  }
 
   public function executeNew(sfWebRequest $request)
   {

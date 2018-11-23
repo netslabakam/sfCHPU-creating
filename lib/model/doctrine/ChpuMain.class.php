@@ -16,8 +16,4 @@ class ChpuMain extends BaseChpuMain
     {
         return chpu::slugify($this->getShort());
     }
-    public function myRedirect()
-    {
-        return $this->redirect($this->getUrl());
-    }
 }
